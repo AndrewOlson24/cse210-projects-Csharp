@@ -79,7 +79,7 @@ while (loopTheJournal)
 
             break;
         case "4":
-            Journal journal1 = new Journal();
+            Console.WriteLine("saved to MyJournal.txt");
             
 
             
