@@ -18,7 +18,55 @@ public class Scripture
     }
 
     public void buildScripture(){
-        Word word1 = new Word("O");
+        Word word1 = new Word("Your");
+        Word word2 = new Word ("father");
+        Word word3 = new Word ("Abraham");
+        Word word4 = new Word ("rejoiced");
+        Word word5 = new Word ("t0");
+        Word word6 = new Word ("see");
+        Word word7 = new Word ("my");
+        Word word8 = new Word ("day");
+        Word word9 = new Word ("and");
+        Word word10 = new Word ("he");
+        Word word11 = new Word ("saw");
+        Word word12 = new Word ("it");
+        Word word13 = new Word ("and");
+        Word word14 = new Word ("was");
+        Word word15 = new Word ("glad");
+        Word word16 = new Word ("then");
+        Word word17 = new Word ("said");
+        Word word18 = new Word ("the");
+        Word word19 = new Word ("Jews");
+        Word word20 = new Word ("unto");
+        Word word21= new Word ("him");
+        Word word22 = new Word ("thou");
+        Word word23 = new Word ("art");
+        Word word24 = new Word ("not");
+        Word word25 = new Word ("yet");
+        Word word26 = new Word ("fifty");
+        Word word27 = new Word ("years");
+        Word word28 = new Word ("old");
+        Word word29 = new Word ("and");
+        Word word30 = new Word ("hast");
+        Word word31 = new Word ("thou");
+        Word word32 = new Word ("seen");
+        Word word33 = new Word ("Abraham");
+        Word word34 = new Word ("Jesus");
+        Word word35 = new Word ("said");
+        Word word36 = new Word ("unto");
+        Word word37 = new Word ("them");
+        Word word38 = new Word ("Verily");
+        Word word39 = new Word ("verily");
+        Word word40 = new Word ("I");
+        Word word41 = new Word ("say");
+        Word word42 = new Word ("unto");
+        Word word43 = new Word ("you");
+        Word word44 = new Word ("Before");
+        Word word45 = new Word ("Abraham");
+        Word word46 = new Word ("was");
+        Word word47 = new Word ("I");
+        Word word48 = new Word ("AM");
+
         _words.Add(word1);
         _words.Add(word2); 
         _words.Add(word3); 
@@ -67,93 +115,19 @@ public class Scripture
         _words.Add(word46); 
         _words.Add(word47); 
         _words.Add(word48); 
-        _words.Add(word49); 
-        _words.Add(word50); _words.Add(word51); _words.Add(word52); _words.Add(word53); _words.Add(word54); _words.Add(word55); _words.Add(word56); _words.Add(word57); _words.Add(word58); _words.Add(word59); _words.Add(word60); _words.Add(word61); _words.Add(word62); _words.Add(word63); _words.Add(word64); _words.Add(word65); _words.Add(word66); _words.Add(word67); _words.Add(word68); _words.Add(word69); _words.Add(word70); _words.Add(word71); _words.Add(word72); _words.Add(word73); _words.Add(word74); _words.Add(word75); _words.Add(word76); _words.Add(word77); _words.Add(word78); _words.Add(word79); 
-        _words.Add(word80);
-        _words.Add(Word word2 = new Word ("that"));
-        _words.Add(Word word3 = new Word ("cunning"));
-        _words.Add(Word word4 = new Word ("plan"));
-        _words.Add(Word word5 = new Word ("of"));
-        _words.Add(Word word6 = new Word ("the"));
-        _words.Add(Word word7 = new Word ("evil"));
-        _words.Add(Word word8 = new Word ("one"));
-        _words.Add(Word word9 = new Word ("O"));
-        _words.Add(Word word10 = new Word ("the"));
-        _words.Add(Word word11 = new Word ("vainness"));
-        _words.Add(Word word12 = new Word ("and"));
-        _words.Add(Word word13 = new Word ("the"));
-        _words.Add(Word word14 = new Word ("frailties"));
-        _words.Add(Word word15 = new Word ("and"));
-        _words.Add(Word word16 = new Word ("the"));
-        _words.Add(Word word17 = new Word ("foolishness"));
-        _words.Add(Word word18 = new Word ("of"));
-        _words.Add(Word word19 = new Word ("men"));
-        _words.Add(Word word20 = new Word ("When"));
-        _words.Add(Word word21= new Word ("they"));
-        _words.Add(Word word22 = new Word ("are"));
-        _words.Add(Word word23 = new Word ("learned"));
-        _words.Add(Word word24 = new Word ("they"));
-        _words.Add(Word word25 = new Word ("think"));
-        _words.Add(Word word26 = new Word ("they"));
-        _words.Add(Word word27 = new Word ("are"));
-        _words.Add(Word word28 = new Word ("wise"));
-        _words.Add(Word word29 = new Word ("and"));
-        _words.Add(Word word = new Word ("they"));
-        _words.Add(Word word2 = new Word ("harken"));
-        _words.Add(Word word2 = new Word ("not"));
-        _words.Add(Word word2 = new Word ("unto"));
-        _words.Add(Word word2 = new Word ("the"));
-        _words.Add(Word word2 = new Word ("counsel"));
-        _words.Add(Word word2 = new Word ("of"));
-        _words.Add(Word word2 = new Word ("God"));
-        _words.Add(Word word2 = new Word ("for"));
-        _words.Add(Word word2 = new Word ("they"));
-        _words.Add(Word word2 = new Word ("set"));
-        _words.Add(Word word2 = new Word ("it"));
-        _words.Add(Word word2 = new Word ("aside"));
-        _words.Add(Word word2 = new Word ("supposing"));
-        _words.Add(Word word2 = new Word ("they"));
-        _words.Add(Word word2 = new Word ("know"));
-        _words.Add(Word word2 = new Word ("of"));
-        _words.Add(Word word2 = new Word ("themselves"));
-        _words.Add(Word word2 = new Word ("wherefore"));
-        _words.Add(Word word2 = new Word ("their"));
-        _words.Add(Word word2 = new Word ("wisdom"));
-        _words.Add(Word word2 = new Word ("is"));
-        _words.Add(Word word2 = new Word ("foolishness"));
-        _words.Add(Word word2 = new Word ("and"));
-        _words.Add(Word word2 = new Word ("it"));
-        _words.Add(Word word2 = new Word ("profiteth"));
-        _words.Add(Word word2 = new Word ("them"));
-        _words.Add(Word word2 = new Word ("not"));
-        _words.Add(Word word2 = new Word ("And"));
-        _words.Add(Word word2 = new Word ("they"));
-        _words.Add(Word word2 = new Word ("shall"));
-        _words.Add(Word word2 = new Word ("perish"));
-        _words.Add(Word word2 = new Word ("But"));
-        _words.Add(Word word2 = new Word ("to"));
-        _words.Add(Word word2 = new Word ("be"));
-        _words.Add(Word word2 = new Word ("learned"));
-        _words.Add(Word word2 = new Word ("is"));
-        _words.Add(Word word2 = new Word ("good"));
-        _words.Add(Word word2 = new Word ("if"));
-        _words.Add(Word word2 = new Word ("they"));
-        _words.Add(Word word2 = new Word ("hearken"));
-        _words.Add(Word word2 = new Word ("unto"));
-        _words.Add(Word word2 = new Word ("the"));
-        _words.Add(Word word2 = new Word ("counsels"));
-        _words.Add(Word word2 = new Word ("of"));
-        _words.Add(Word word2 = new Word ("God"));
+        
+        
+        
     }
 
     
 
-    public List<string> GetScriptureVerse()
-    {
+       public List<string> GetScriptureVerse()
+      {
         
-        return _words;
+         return _words
 
-    }
+      }
 
     public string GetScriptureString()
     {
@@ -168,11 +142,10 @@ public class Scripture
     }
     public string HideWords()
     {
-        Random random = new Random();
+       Random random = new Random();
         for( int i = 0; i < 3; i++)
         {
-            while()
-        }
+           while();
+       }
     }
-
 }

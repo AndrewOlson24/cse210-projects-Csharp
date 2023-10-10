@@ -10,11 +10,11 @@ class Program
         Reference reference = new Reference("Second Nephi",1,"1");
         Console.WriteLine(reference.GetDisplaytext());
 
-      //  Scripture scripture = new Scripture();
-      //  Console.WriteLine(scripture.GetScriptureString());
+      Scripture scripture = new Scripture();
+      Console.WriteLine(scripture.GetScriptureString());
 
       List <Word> _theWords = new List<Word>();
-        _theWords = scripture._word;
+        _theWords = scripture._words;
 
       while(_theWords.Count()> 0)
       {

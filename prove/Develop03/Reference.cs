@@ -14,18 +14,18 @@ public class Reference
     public Reference(string book, int chapter, string verse)
     {
         
-        _book = "Second Nephi";
-        _chapter = 9;
-        _verse = "28-29";
+        _book = "John";
+        _chapter = 8;
+        _verse = "56-58";
 
 
     }
     public Reference(string _book, int _chapter, int _startVerse, int _endVerse )
     {
-        _book = "Second Nephi";
-        _chapter = 9;
-        _startVerse = 28;
-        _endVerse = 29;
+        _book = "John";
+        _chapter = 8;
+        _startVerse = 56;
+        _endVerse = 58;
     }
 
     public string GetDisplaytext()
