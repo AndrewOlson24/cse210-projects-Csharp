@@ -25,6 +25,8 @@ public class TheDisplay
             Console.WriteLine("");
             _comments.Display();
             Console.WriteLine("=================================================================");
+            Console.WriteLine("");
+            Console.WriteLine("=================================================================");
             
 
         }
