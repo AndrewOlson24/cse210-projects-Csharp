@@ -10,11 +10,21 @@ public class TheDisplay
 
     public void Display()
     {
+        
         foreach (Video video in _videos)
         {
             video.Display();
+            Console.WriteLine("=================================================================");
+            Console.WriteLine("Top Comments");
+            Console.WriteLine("");
             _comments.Display();
             Console.WriteLine("");
+            _comments.Display();
+            Console.WriteLine("");
+            _comments.Display();
+            Console.WriteLine("");
+            _comments.Display();
+            Console.WriteLine("=================================================================");
             
 
         }

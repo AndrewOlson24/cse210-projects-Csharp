@@ -4,7 +4,15 @@ class Program
 {
     static void Main(string[] args)
     {
-    
+        
+        Console.WriteLine("======Welcome to the Youtube Comments Sections======");
+        Console.WriteLine("");
+        Console.WriteLine("");
+        Console.WriteLine("");
+        Console.WriteLine("=================================================================");
+
+
+
         Comments comments = new Comments();
         Video video1 = new Video();
         video1._title = "Harry Potter puppets pals: The Mysterioius Ticking Noise";

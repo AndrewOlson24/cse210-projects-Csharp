@@ -18,6 +18,14 @@ public class Comments
         comments.Add("That is my favorite video to exlplain this topic for me!! Thank you for the video");
         comments.Add("first");
         comments.Add("This video is soooo fake, its from a video game from 3 years ago, don't believe everythig you see on youtube!!!!");
+        comments.Add("this song is the worst!!");
+        comments.Add("Did someone say my name?");
+        comments.Add("You wanna be a God?" + "- Yes");
+        comments.Add("Vote or die this November!!!!!");
+        comments.Add("whos here in 2019?");
+
+
+
 
         name.Add("Jack Orlando");
         name.Add("David Steller");
@@ -25,6 +33,11 @@ public class Comments
         name.Add("Professor Snape");
         name.Add("Loki, brother of Thor");
         name.Add("Tarzan");
+        name.Add("Erik");
+        name.Add("Andy Olson");
+        name.Add("Obama");
+        name.Add("Trump");
+        name.Add("Hillary Clinton");
 
     }
 

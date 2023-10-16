@@ -12,7 +12,7 @@ public class Video
 
     public void Display()
     {
-        Console.WriteLine($"{_title}\n{_author}\n{_lenght}\n{_viewsInMillions}\n");
+        Console.WriteLine($"Title: {_title}\nCreator: {_author}\nLength: {_lenght}\nViews(in Millions): {_viewsInMillions}\n");
     
         
     }
