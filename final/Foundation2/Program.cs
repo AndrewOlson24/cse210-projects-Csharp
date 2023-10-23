@@ -1,9 +1,14 @@
 using System;
+using System.Xml.Schema;
+using System.Collections.Generic;
 
 class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Hello Foundation2 World!");
+        Order order = new Order();
+        order.Menu();
+        order.ListCustomer();
+
     }
 }

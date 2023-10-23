@@ -20,11 +20,11 @@ public class Reference
 
 
     }
-    public Reference(string _book, int _chapter, int _startVerse, int _endVerse )
+    public Reference(string book, int chapter, int startVerse, int endVerse )
     {
         _book = "John";
         _chapter = 8;
-        _startVerse = 56;
+        //_startVerse = 56;
         _endVerse = 58;
     }
 
