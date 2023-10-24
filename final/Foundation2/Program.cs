@@ -7,9 +7,9 @@ class Program
     static void Main(string[] args)
     {
         Order order = new Order("Andy","10 Test1 Ct.", "testCity1", "testState1", "Test1 Country");
-        order.AddProduct("xbox", "87687", 899, 2);
-        order.AddProduct("xbox 360", "84787", 399, 2);
-        order.AddProduct("wii", "44", 1299, 1);
+        order.AddProduct("iPad 3", "87687", 899, 10);
+        order.AddProduct("xbox one", "84787", 399, 2);
+        order.AddProduct("wii", "44", 299, 1);
         order.DisplayPreface();
         order.TheDisplayProductsTotalPrices();
         order.DisplayCustomer();
