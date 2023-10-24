@@ -5,17 +5,17 @@ using System.Collections.Generic;
 
 public class Product
 {
-    private string _pname;
+    private string _pName;
     private string _pID;
     private int _price;
     private int _pQuantity;
 
-    public Product(string pname, string pID, string price, string pQuantity)
+    public Product(string pName, string pID, int price, int pQuantity)
     {
-        _pname = "Xbox 1";
-        _pID = "5678";
-        _price = 899;
-        _pQuantity = 1;
+        _pName = pName;
+        _pID = pID;
+        _price = price;
+        _pQuantity = pQuantity;
     }
     /*public Product2(string pname, string pID, string price, string pQuantity)
     {
@@ -31,21 +31,36 @@ public class Product
         _price = 699;
         _pQuantity = 1;
     }*/
-    public int GetMath()
+    public int GetTotalPrice()
     {
         int _thePrice = _price * _pQuantity;
         return _thePrice;
     }
 
-    public string GetProduct()
+    public string GetTotalPriceString()
     {
-        string gPrice = $"{_pname} {_pID}" + GetMath();
+        string gPrice = $"Product name: {_pName}, Product ID: {_pID}, Total Price: {GetTotalPrice()}";
         return gPrice;
     }
 
-    public static implicit operator string(Product v)
+    public string GetProductString() {
+        return $"{_pName}, {_pID}, {_price}, {_pQuantity}";
+    }
+
+    public int GetTotalPriceForALL()
     {
-        throw new NotImplementedException();
+        int tree = GetTotalPrice() + 35;
+        return tree;
+    }
+    public int TotalSumPrice()
+    {
+        int total = 0;
+        for (int i = 0; i < 3; i++)
+        {
+            int number = GetTotalPrice();
+            total += number;
+        }
+        return total;
     }
 }
 

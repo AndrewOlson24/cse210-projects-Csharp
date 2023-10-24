@@ -39,7 +39,7 @@ public class Address
     }
     public string getterAddress()
     {   
-        string _theAddress = $"{_address} {_city} {_state} {_country}";
+        string _theAddress = $"{_address}{_city} \n{_state} {_country}";
         return _theAddress;
     }
 }

@@ -13,17 +13,16 @@ public class Customer
     public void CheckAddress()
     {
         _address.America();
-
+    }
+    public Customer(string humanName, Address address)
+    {
+        _humanName = humanName;
+        _address = address;
+    }
+    public string GetCustomerInfo()
+    {   
         
-
-    }
-    public Customer(string _humanName)
-    {
-        _humanName = "Andy";
-    }
-    public string TheCustomer()
-    {
-        string _fullAdress = $"{_humanName}" + _address.getterAddress();
+        string _fullAdress = $"{_humanName}\n{_address.getterAddress()}";
         return _fullAdress;
     }
 
